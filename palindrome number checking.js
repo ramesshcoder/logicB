@@ -1,9 +1,9 @@
 // check if given number is palindrome or not
-let number=341;
+let number=343;
 let org=number
 let rev=0;
 while(number>0){
-    a=number%10;
+   let a=number%10;
     rev=rev*10+a;
     number=Math.floor(number/10)
     
